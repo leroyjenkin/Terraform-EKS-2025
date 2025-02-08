@@ -6,14 +6,14 @@
 - Make sure to have the S3 backend state folder created and DynamoDB file locking table
 
 ## Deploy the EBS CSI driver 
-02-ebs-addon-terraform-manifests
+02-ebs-addon-terraform-manifests/
 
 - Change the AWS region if needed
 - Make sure to have the S3 backend state folder created and DynamoDB file locking table
 
 
 ## Deploy the application
-03-terraform-manifests-UMS-WebApp
+03-terraform-manifests-UMS-WebApp/
 
 - Change the AWS region if needed
 - Make sure to have the S3 backend state folder created and DynamoDB file locking table
