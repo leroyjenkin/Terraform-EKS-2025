@@ -9,21 +9,21 @@
 02-ebs-addon-terraform-manifests/
 
 - Change the AWS region if needed
-- Make sure to have the S3 backend state folder created and DynamoDB file locking table
+- Make sure to have the S3 backend state folder created
 
 
 ## Deploy the LB controller
 03-lbc-install-terraform-manifests
 
 - Change the AWS region if needed
-- Make sure to have the S3 backend state folder created and DynamoDB file locking table
+- Make sure to have the S3 backend state folder created
 
 
 ## Deploy the application and the ingress
-03-lbc-install-terraform-manifests
+04-ingress-cpr-terraform-manifests
 
 - Change the AWS region if needed
-- Make sure to have the S3 backend state folder created and DynamoDB file locking table
+- Make sure to have the S3 backend state folder created
 
 
 cleanup after destroy
