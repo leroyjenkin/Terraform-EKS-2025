@@ -12,8 +12,15 @@
 - Make sure to have the S3 backend state folder created and DynamoDB file locking table
 
 
-## Deploy the application
-03-terraform-manifests-UMS-WebApp/
+## Deploy the LB controller
+03-lbc-install-terraform-manifests
+
+- Change the AWS region if needed
+- Make sure to have the S3 backend state folder created and DynamoDB file locking table
+
+
+## Deploy the application and the ingress
+03-lbc-install-terraform-manifests
 
 - Change the AWS region if needed
 - Make sure to have the S3 backend state folder created and DynamoDB file locking table
