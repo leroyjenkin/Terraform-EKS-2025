@@ -19,3 +19,5 @@
 - Make sure to have the S3 backend state folder created and DynamoDB file locking table
 
 
+cleanup after destroy
+rm -rf .terraform*

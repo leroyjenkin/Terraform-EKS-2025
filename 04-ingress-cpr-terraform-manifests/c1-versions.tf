@@ -6,20 +6,20 @@ terraform {
       source = "hashicorp/aws"
       #version = ">= 4.65"
       version = ">= 5.31"
-     }
+    }
     kubernetes = {
-      source  = "hashicorp/kubernetes"
+      source = "hashicorp/kubernetes"
+      #version = "~> 2.7"
       version = ">= 2.20"
-    }     
+    }    
   }
   # Adding Backend as S3 for Remote State Storage
   backend "s3" {
     bucket = "eks-tfstate-bucket-gz"
-    key    = "sampleapp-demo/terraform.tfstate"
+    key    = "aws-lbc-ingress/terraform.tfstate"
     region = "eu-central-1" 
 
     # For State Locking
-    dynamodb_table = "ebs-sampleapp-demo"    
+    dynamodb_table = "aws-lbc-ingress"    
   }    
 }
-
