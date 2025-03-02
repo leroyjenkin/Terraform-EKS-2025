@@ -26,5 +26,7 @@
 - Make sure to have the S3 backend state folder created
 
 
-cleanup after destroy
+
+
+## cleanup after destroy
 rm -rf .terraform*
