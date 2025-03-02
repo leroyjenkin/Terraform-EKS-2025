@@ -26,7 +26,11 @@
 - Make sure to have the S3 backend state folder created
 
 
+## Below 05 and 06 manifests add FARGATE profiles and ingress/app to the AWS managed EKS cluster - OPTIONAL
+
+- Change the AWS region if needed
+- Make sure to have the S3 backend state folder created
 
 
-## cleanup after destroy
+## CLEANUP AFTER DESTROY
 rm -rf .terraform*
