@@ -35,13 +35,7 @@
 ## To configure Cloudwatch monitoring agent and Fluendbit logging
 07-cloudwatchagent-fluentbit-terraform-manifests
 
-08--sample-app-test-container-insights
-
-- in 01-ekscluster-terraform-manifests/c5-06-eks-cluster.tf add the below lines:
-
-Enable EKS Cluster Control Plane Logging
-
-enabled_cluster_log_types = ["api", "audit", "authenticator", "controllerManager", "scheduler"]
+08-sample-app-test-container-insights
 
 - Change the AWS region if needed
 - Make sure to have the S3 backend state folder created
